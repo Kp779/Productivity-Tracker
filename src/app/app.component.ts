@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-list';
+  bgImage = 'assets/pexels-alina-matveycheva-16694523.jpg';
 }

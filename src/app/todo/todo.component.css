@@ -1,0 +1,37 @@
+.listCont{
+    background-color: white;
+    opacity: 70%;
+    width:50%;
+    min-height: 25em;
+    margin-top: 3%;
+    padding: 1rem;
+    box-shadow: #B19FF9 0rem 0rem 0.8rem;
+}
+.btn{
+    background-color: #71437b;
+    color: aliceblue;
+}
+.task{
+    width: 80%;
+    height: 2rem;
+    padding-left: 2%;
+    justify-content: center;
+}
+.log{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+.tbtn{
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    border-radius: 10%;
+    border-color: #71437b;
+    color: #71437b;
+    font-weight: 640;
+    margin: 1%;
+}
+.tbtn:hover{
+    background-color: #71437b;
+    color: aliceblue;
+}

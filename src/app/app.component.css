@@ -1,0 +1,7 @@
+#container{
+    height: 90vh;
+    width: 100%;
+    background-image: url('src/assets/pexels-alina-matveycheva-16694523.jpg');
+    background-size: cover;
+    opacity: 80%;
+}

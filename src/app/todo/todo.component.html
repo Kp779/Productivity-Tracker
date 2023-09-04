@@ -1,0 +1,14 @@
+<div class="listCont container-fluid">
+    <div class="input-group mb-3 shadow">
+        <input type="text" class="form-control" placeholder="Enter Task" aria-label="task"
+            aria-describedby="button-addon2" #value [(ngModel)]="task" >
+        <button *ngIf="isAddbtn"  class="btn btn-outline-secondary" type="button" value="Add" (click)="addFunction()">Add</button>
+        <button *ngIf="isSavebtn" class="btn btn-outline-secondary"     type="button" value="Add" (click)="editName(task)">Save</button>
+    </div>
+    <div class="log shadow" *ngFor = "let i of taskArr">
+        <div class="task">{{i}}</div>
+        <button class="edit tbtn" (click)="edit(i)" >edit</button>
+        <button class=" del tbtn" (click)="delete(i)">delete</button>
+
+    </div>
+</div>
